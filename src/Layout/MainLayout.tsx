@@ -12,7 +12,7 @@ export default function MainLayout() {
         <Breadcrumbs />
         <Outlet />
       </main>
-      <footer>
+      <footer style={{marginLeft:'100svh'}}>
         <p>© 2025 Mi Sitio</p>
       </footer>
     </>

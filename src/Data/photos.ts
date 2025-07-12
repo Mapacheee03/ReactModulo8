@@ -1,4 +1,3 @@
-// src/data/photos.ts
 export const photos = [
   {
     id: 1,

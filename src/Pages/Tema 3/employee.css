@@ -1,0 +1,58 @@
+/* Estilos comunes para lista y detalle */
+
+.employee-container {
+  max-width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.employee-title {
+  color: #2980b9;
+  margin-bottom: 1rem;
+}
+
+.employee-list {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-list li {
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+}
+
+.employee-list li:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.employee-link {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: 500;
+}
+
+.employee-detail p {
+  margin: 0.5rem 0;
+}
+
+.back-button {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #1e6aa6;
+}
