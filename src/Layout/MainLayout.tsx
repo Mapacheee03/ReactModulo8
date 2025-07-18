@@ -10,9 +10,10 @@ export default function MainLayout() {
       </header>
       <main>
         <Breadcrumbs />
+       
         <Outlet />
       </main>
-      <footer style={{marginLeft:'100svh'}}>
+      <footer style={{ marginLeft: '100svh' }}>
         <p>© 2025 Mi Sitio</p>
       </footer>
     </>

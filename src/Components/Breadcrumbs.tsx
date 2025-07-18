@@ -30,7 +30,7 @@ const Breadcrumbs = () => {
         gap: '0.3rem',
       }}
     >
-      <Link to="/" style={{ color: '#007bff', textDecoration: 'none'}}>
+      <Link to="/home" style={{ color: '#007bff', textDecoration: 'none'}}>
         Inicio
       </Link>
       {paths.map((segment, index) => (

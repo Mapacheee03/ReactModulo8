@@ -30,8 +30,15 @@ const temas = [
     key: 'tema3',
     links: [
       { label: 'Directorio ', to: '/employees', end: true },
-      { label: 'Tienda Online', to: '/combinedview', end: true },
-
+      { label: 'Tienda Online', to: '/category', end: true },
+    ],
+  },
+  {
+    title: 'Tema 4: useNavigate',
+    key: 'tema4',
+    links: [
+      { label: 'Quiz Interactivo', to: '/quiz' },
+      { label: 'Formulario Multi-paso', to: '/multi-step-form' },
     ],
   },
 ];

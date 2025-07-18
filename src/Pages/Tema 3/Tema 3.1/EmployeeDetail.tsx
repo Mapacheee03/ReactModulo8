@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { employees } from '../../Data/employees';
+import { employees } from '../../../Data/employees';
 import './employee.css'; // Importa tus estilos
 
 const EmployeeDetail = () => {
