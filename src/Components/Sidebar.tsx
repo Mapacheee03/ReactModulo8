@@ -41,6 +41,20 @@ const temas = [
       { label: 'Formulario Multi-paso', to: '/multi-step-form' },
     ],
   },
+  {
+    title: 'Tema 5: Redirigir',
+    key: 'tema5',
+    links: [
+      { label: 'Login', to: '/login' },
+    ],
+  },
+  {
+    title: 'Tema 6:  Rutas Parametrizadas Avanzadas',
+    key: 'tema6',
+    links: [
+      { label: 'Search', to: '/search' },
+    ],
+  },
 ];
 
 const dashboardLinks = [
